@@ -54,14 +54,33 @@ img {
 }
 
 #todolist li {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 20px;
   padding: 20px;
   box-shadow: -1px -1px 5px 0px gray;
   border-bottom: 5px solid #7055d3;
 }
+/* #todolist li div:first-child{
+  overflow-x: hidden;
+} */
 
 #todolist li a {
   float: right;
   font-size: 16px;
   cursor: pointer;
+}
+
+span{
+  cursor: pointer;
+}
+
+#reset{
+  width: 100px;
+  background-color: #7055d3;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
 }
